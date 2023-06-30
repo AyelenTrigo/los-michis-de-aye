@@ -12,6 +12,7 @@
     --verde: #72e2a6;
     --amarillo: #ffd766;
     --rosa: #ffa093;
+    
     --relieve: 2px 2px 2px 2px #4444;
 }
 *{
@@ -75,6 +76,9 @@ main{
 .links:nth-child(3){
     background-color: var(--verde);
 }
+.links:nth-child(4){
+    background-color: var(--amarillo);
+}
 .links:hover{
-    background: #ffd766;
+    background: #fbb3fd;
 }
